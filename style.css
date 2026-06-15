@@ -227,3 +227,23 @@
   font-family: "Roboto";
   font-size: 14px;
 }
+
+
+/*Copyright */
+.copyright {
+    text-align: center;
+    padding: 18px 15px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+    letter-spacing: 0.3px;
+}
+
+.copyright .brand {
+    color: #ff7a00;
+    font-weight: 600;
+}
