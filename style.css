@@ -267,14 +267,30 @@
 
 .login-btn,
 .register-btn {
-    display: inline-block;
-    padding: 12px 28px;
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 12px 28px;
+  text-align: center;
     text-decoration: none;
     border-radius: 50px;
     font-size: 15px;
     font-weight: 600;
     transition: 0.3s ease;
     margin: 0 5px;
+  
+    /* display: inline-block;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin: 0 5px; */
 }
 
 .login-btn {
@@ -351,15 +367,7 @@
     object-fit: contain;
 }
 
-/* home link */
-
-
-
-
-
 /* login css */
-
-
 body {
     margin: 0;
     padding: 0;
@@ -426,6 +434,7 @@ body {
     border-color: #b09501;
     box-shadow: 0 0 0 4px rgba(176, 149, 1, 0.1);
 }
+
 
 .auth-btn {
     width: 100%;
